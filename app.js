@@ -56,7 +56,7 @@
 // num=num.toString().replace(".", "");
 // alert(num);
 
-//Chap 21-25 and Task 13  Incomplete sahi nahi hai 
+//Chap 21-25 and Task 13  
 // var username=prompt("Enter a Username");
 // for(i=0; i<username.length; i++)
 // if (username[i]==="." || username[i]==="," || username[i]==="!"|| username[i]==="@"){
@@ -92,7 +92,7 @@
 // alert(result);
 
 
-//Chap 21-25 and Task 18 copy code
+//Chap 21-25 and Task 18 
 // }
 // function countOccurences(string, word) {
 //     return string.split(word).length - 1;
@@ -283,3 +283,44 @@
 // }
 // var num = parseInt(prompt("Enter a number:"));
 // square(num);
+
+//Chap 34-38 and Task 6
+// function factorial(n){
+//     var  answer = 1;
+//     if (n == 0 || n == 1){
+//       return answer;
+//     }else{
+//       for(var i = n; i >= 1; i--){
+//         answer = answer * i;
+//       }
+//       return answer;
+//     }  
+//   }
+//   var n = 4;
+//   answer = factorial(n)
+//   console.log("The factorial of " + n + " is " + answer);
+
+//Chap 34-38 and Task 7
+// function counting(firnum,lastnum){
+
+// for (i=firnum; i<=lastnum; i++){
+//     console.log(i);
+// }
+
+// }
+// var firnum=prompt("Enter a first number");
+// var lastnum=prompt("Enter a last number");
+// counting(firnum,lastnum);
+
+//Chap 34-38 and Task 10
+// function palindrome(word){
+// var check=word.split("").reverse().join("");
+// if(word===check){
+//     alert("It is a palindrome word");
+// }
+// else{
+//     alert("It's not a palindrome word");
+// }
+// }
+// var word=prompt("Enter a word");
+// palindrome(word);
